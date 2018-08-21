@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "cca4f1c1-b7b3-4a11-877c-556a88893284",
+  "alias": "SharePointCatalogWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "SharePoint Catalog Webpart" },
+    "description": { "default": "SharePointCatalog description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "listUrl": "SharePoint Catalog WebPart",
+      "ascending": true,
+      "view":"Allitems",
+      "fields":"all!!!"
+    }
+  }]
+}

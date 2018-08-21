@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-catalog-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointCatalog/SharePointCatalogWebPart.js",
+          "manifest": "./src/webparts/sharePointCatalog/SharePointCatalogWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {"jquery":"node_modules/jquery/dist/jquery.min.js"},
+  "localizedResources": {
+    "SharePointCatalogWebPartStrings": "lib/webparts/sharePointCatalog/loc/{locale}.js"
+  }
+}
